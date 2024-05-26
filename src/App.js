@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <ReactHlsPlayer
-          src="https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+          src="http://192.168.5.150/hls/main/playlist.m3u8"
           autoPlay={false}
           controls={true}
           width="100%"
